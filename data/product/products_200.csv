@@ -1,0 +1,51 @@
+id,name,mrp,discounted_price,qty,cat_id
+151,Microwave - Home Appliances,25614,18698.22,153,3
+152,Microwave - Home Appliances,42859,34287.2,145,3
+153,T-Shirt - Fashion,26829,25487.55,107,2
+154,Seat Cushion - Automotive,33364,26691.2,101,10
+155,Jeans - Fashion,41921,29344.7,30,2
+156,Lipstick - Beauty,33598,28222.32,25,6
+157,Marker - Stationery,44015,41814.25,115,13
+158,Sugar - Groceries,30140,26523.2,64,9
+159,Cap - Fashion,44997,32847.81,109,2
+160,Pet Shampoo - Pet Supplies,34277,30163.76,69,14
+161,Comics - Books,19721,15185.17,16,5
+162,Sneakers - Fashion,21071,14749.7,104,2
+163,T-Shirt - Fashion,14310,12592.8,182,2
+164,Vacuum Cleaner - Home Appliances,48528,35425.44,75,3
+165,Cricket Bat - Sports,27730,24125.1,122,4
+166,Tyre Polish - Automotive,47414,37931.2,145,10
+167,Car Cover - Automotive,34429,25821.75,138,10
+168,T-Shirt - Fashion,6789,5974.32,142,2
+169,Jacket - Fashion,6501,5850.9,63,2
+170,Bed - Furniture,49994,36995.56,145,8
+171,Comics - Books,27474,25276.08,89,5
+172,Earrings - Jewelry,1450,1131.0,18,11
+173,Vacuum Cleaner - Home Appliances,25261,19198.36,155,3
+174,Sneakers - Fashion,38754,32165.82,22,2
+175,Rice - Groceries,18067,12646.9,183,9
+176,Building Blocks - Toys,37855,29148.35,58,7
+177,Face Cream - Beauty,41012,36910.8,101,6
+178,Amplifier - Music & Audio,45008,39156.96,68,15
+179,Dog Food - Pet Supplies,27266,20722.16,135,14
+180,Pasta - Groceries,29657,26098.16,10,9
+181,Cap - Fashion,17224,14123.68,120,2
+182,Protein Powder - Health,38107,29342.39,51,12
+183,Chair - Furniture,25931,24375.14,72,8
+184,Car Cover - Automotive,15808,12488.32,76,10
+185,Chair - Furniture,37791,27587.43,161,8
+186,Amplifier - Music & Audio,1640,1262.8,132,15
+187,Cat Litter - Pet Supplies,2431,2285.14,41,14
+188,Microwave - Home Appliances,32885,25650.3,70,3
+189,Anklet - Jewelry,9896,7224.08,150,11
+190,Sneakers - Fashion,44680,37978.0,42,2
+191,Cat Litter - Pet Supplies,18643,13982.25,73,14
+192,Perfume - Beauty,40486,29554.78,28,6
+193,Seat Cushion - Automotive,8653,6143.63,166,10
+194,Sports Shoes - Sports,12931,10732.73,44,4
+195,Sneakers - Fashion,41836,36815.68,14,2
+196,Lipstick - Beauty,1083,963.87,152,6
+197,Microphone - Music & Audio,36396,34576.2,189,15
+198,Smartphone - Electronics,49210,43304.8,92,1
+199,Seat Cushion - Automotive,29803,23842.4,69,10
+200,Jacket - Fashion,38318,35252.56,164,2

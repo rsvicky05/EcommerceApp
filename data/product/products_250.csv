@@ -1,0 +1,51 @@
+id,name,mrp,discounted_price,qty,cat_id
+201,Pet Shampoo - Pet Supplies,34545,31781.4,117,14
+202,Air Freshener - Automotive,3203,2274.13,71,10
+203,Microwave - Home Appliances,42327,30475.44,190,3
+204,Bed - Furniture,10007,7705.39,194,8
+205,Headphones - Electronics,26449,20630.22,159,1
+206,Remote Car - Toys,34782,31999.44,130,7
+207,Table - Furniture,48271,37651.38,141,8
+208,Notebook - Stationery,2332,2122.12,137,13
+209,Chair - Furniture,47799,34415.28,110,8
+210,Pasta - Groceries,12922,10596.04,190,9
+211,Table - Furniture,1541,1386.9,135,8
+212,Notebook - Stationery,49491,44046.99,189,13
+213,Air Freshener - Automotive,911,728.8,168,10
+214,Amplifier - Music & Audio,48500,37345.0,77,15
+215,Sugar - Groceries,35264,27858.56,34,9
+216,Smartphone - Electronics,27726,24121.62,76,1
+217,Perfume - Beauty,41659,31660.84,101,6
+218,Face Cream - Beauty,29092,26182.8,182,6
+219,Protein Powder - Health,43001,36980.86,44,12
+220,Cooking Oil - Groceries,27000,24300.0,123,9
+221,Amplifier - Music & Audio,46571,37722.51,75,15
+222,Laptop - Electronics,48032,42268.16,76,1
+223,Air Freshener - Automotive,27393,23284.05,126,10
+224,Sofa - Furniture,24660,22440.6,119,8
+225,Notebook - Stationery,37386,27291.78,61,13
+226,Football - Sports,17910,13969.8,51,4
+227,Science Fiction - Books,13523,10547.94,80,5
+228,Bluetooth Speaker - Music & Audio,35867,30486.95,85,15
+229,Jeans - Fashion,5970,4537.2,58,2
+230,Novel - Books,17080,14176.4,152,5
+231,Protein Powder - Health,42999,37839.12,145,12
+232,Laptop - Electronics,4533,3762.39,71,1
+233,Pasta - Groceries,30803,28030.73,12,9
+234,Rice - Groceries,17222,14810.92,187,9
+235,Football - Sports,23361,19623.24,167,4
+236,Spices - Groceries,24925,20937.0,88,9
+237,Spices - Groceries,28801,24768.86,116,9
+238,Microphone - Music & Audio,10426,7402.46,179,15
+239,Chair - Furniture,10767,7967.58,33,8
+240,Pencil - Stationery,1101,957.87,183,13
+241,Headphones - Electronics,36488,26271.36,127,1
+242,Guitar - Music & Audio,7688,5381.6,33,15
+243,Comics - Books,48437,38265.23,135,5
+244,Smartphone - Electronics,46514,42327.74,108,1
+245,Tennis Racket - Sports,17189,12547.97,158,4
+246,Biography - Books,23559,19553.97,33,5
+247,Lipstick - Beauty,46205,42046.55,90,6
+248,Yoga Mat - Sports,46641,41044.08,124,4
+249,Novel - Books,47036,44213.84,83,5
+250,Jeans - Fashion,36288,28667.52,112,2

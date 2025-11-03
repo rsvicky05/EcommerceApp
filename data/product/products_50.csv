@@ -1,0 +1,51 @@
+id,name,mrp,discounted_price,qty,cat_id
+1,Necklace - Jewelry,43778,37649.08,52,11
+2,Pencil - Stationery,1443,1226.55,114,13
+3,Spices - Groceries,49220,37407.2,109,9
+4,Vacuum Cleaner - Home Appliances,507,385.32,123,3
+5,Cooking Oil - Groceries,25788,24498.6,64,9
+6,First Aid Kit - Health,6078,5652.54,154,12
+7,Building Blocks - Toys,16745,14568.15,58,7
+8,Microwave - Home Appliances,13582,10050.68,42,3
+9,Bracelet - Jewelry,16736,14058.24,172,11
+10,Perfume - Beauty,22321,21204.95,62,6
+11,Air Freshener - Automotive,16667,11833.57,86,10
+12,Seat Cushion - Automotive,5715,5086.35,177,10
+13,Puzzle - Toys,7184,6609.28,171,7
+14,Smartphone - Electronics,30611,22039.92,139,1
+15,Air Freshener - Automotive,40398,32318.4,132,10
+16,Ring - Jewelry,33614,25546.64,141,11
+17,Hair Oil - Beauty,22987,20918.17,174,6
+18,Washing Machine - Home Appliances,5721,5320.53,78,3
+19,Smartphone - Electronics,17605,16020.55,178,1
+20,Air Conditioner - Home Appliances,38796,35692.32,133,3
+21,Sugar - Groceries,37851,29145.27,68,9
+22,Tyre Polish - Automotive,27809,21134.84,77,10
+23,Amplifier - Music & Audio,32526,23743.98,62,15
+24,Pen - Stationery,46369,40804.72,88,13
+25,Pasta - Groceries,34093,25569.75,135,9
+26,Puzzle - Toys,28148,23925.8,65,7
+27,Bluetooth Speaker - Music & Audio,33161,24539.14,28,15
+28,Notebook - Stationery,13897,11256.57,82,13
+29,Science Fiction - Books,49725,42266.25,37,5
+30,Earrings - Jewelry,6372,5033.88,97,11
+31,Comics - Books,6907,6561.65,86,5
+32,Car Vacuum - Automotive,18323,15208.09,19,10
+33,Vitamins - Health,46848,34667.52,129,12
+34,Sugar - Groceries,31129,27704.81,74,9
+35,Bracelet - Jewelry,4096,3153.92,21,11
+36,Cricket Bat - Sports,3302,2509.52,76,4
+37,Headset - Music & Audio,19980,14585.4,174,15
+38,Tennis Racket - Sports,46627,44295.65,58,4
+39,Cooking Oil - Groceries,48318,45418.92,47,9
+40,T-Shirt - Fashion,13503,11882.64,105,2
+41,Air Freshener - Automotive,32631,27083.73,104,10
+42,Cricket Bat - Sports,3562,3063.32,91,4
+43,Sugar - Groceries,3747,3522.18,104,9
+44,Thermometer - Health,16750,14237.5,164,12
+45,Washing Machine - Home Appliances,4398,3826.26,95,3
+46,Pencil - Stationery,5473,4652.05,70,13
+47,Stapler - Stationery,24410,22701.3,171,13
+48,Spices - Groceries,31408,22927.84,25,9
+49,Cookbook - Books,19049,13524.79,120,5
+50,Bluetooth Speaker - Music & Audio,33330,28330.5,69,15

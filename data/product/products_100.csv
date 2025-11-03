@@ -1,0 +1,51 @@
+id,name,mrp,discounted_price,qty,cat_id
+51,Jacket - Fashion,17558,16153.36,72,2
+52,Bracelet - Jewelry,24872,20892.48,151,11
+53,Jeans - Fashion,6244,4807.88,45,2
+54,Face Cream - Beauty,13967,13128.98,72,6
+55,Shampoo - Beauty,40648,29673.04,191,6
+56,Earrings - Jewelry,47655,42412.95,71,11
+57,Protein Powder - Health,48408,35821.92,75,12
+58,Microphone - Music & Audio,45476,40473.64,108,15
+59,Cricket Bat - Sports,29168,21292.64,139,4
+60,Tennis Racket - Sports,35883,25476.93,23,4
+61,Cooking Oil - Groceries,21449,15443.28,20,9
+62,Stapler - Stationery,33330,28663.8,161,13
+63,Vacuum Cleaner - Home Appliances,11935,8951.25,154,3
+64,Sports Shoes - Sports,33453,24086.16,114,4
+65,Sneakers - Fashion,2212,1659.0,172,2
+66,Building Blocks - Toys,14650,10255.0,124,7
+67,Face Cream - Beauty,25801,18834.73,136,6
+68,Smartwatch - Electronics,2958,2750.94,41,1
+69,T-Shirt - Fashion,19192,15161.68,75,2
+70,Sneakers - Fashion,26260,23371.4,195,2
+71,Yoga Mat - Sports,21331,18344.66,187,4
+72,Bluetooth Speaker - Music & Audio,30350,23673.0,43,15
+73,Notebook - Stationery,2192,1644.0,105,13
+74,Tyre Polish - Automotive,44970,31928.7,181,10
+75,Cooking Oil - Groceries,45749,34311.75,110,9
+76,Football - Sports,10003,7002.1,193,4
+77,Refrigerator - Home Appliances,48922,35223.84,96,3
+78,Bed - Furniture,41051,31609.27,143,8
+79,Cricket Bat - Sports,7023,5477.94,74,4
+80,Washing Machine - Home Appliances,32165,29913.45,46,3
+81,Vitamins - Health,20273,18245.7,145,12
+82,Sports Shoes - Sports,33272,24954.0,186,4
+83,Pet Toy - Pet Supplies,36760,34922.0,69,14
+84,Tablet - Electronics,25270,18447.1,198,1
+85,Ring - Jewelry,30083,27977.19,106,11
+86,Thermometer - Health,3803,3308.61,106,12
+87,Pen - Stationery,4506,4010.34,159,13
+88,Rice - Groceries,40427,32745.87,51,9
+89,Pet Toy - Pet Supplies,8480,7632.0,48,14
+90,BP Monitor - Health,27043,24879.56,172,12
+91,Rice - Groceries,38883,35772.36,50,9
+92,Car Vacuum - Automotive,29863,25383.55,167,10
+93,Laptop - Electronics,30994,25105.14,58,1
+94,Marker - Stationery,22807,20070.16,146,13
+95,Washing Machine - Home Appliances,31119,22405.68,97,3
+96,Cookbook - Books,21667,18200.28,85,5
+97,Dog Food - Pet Supplies,689,509.86,71,14
+98,Protein Powder - Health,19149,15702.18,91,12
+99,Face Cream - Beauty,32327,29417.57,142,6
+100,Remote Car - Toys,48690,40412.7,93,7

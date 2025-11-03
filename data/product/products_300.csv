@@ -1,0 +1,51 @@
+id,name,mrp,discounted_price,qty,cat_id
+251,Biography - Books,9754,9168.76,90,5
+252,Protein Powder - Health,1930,1621.2,113,12
+253,Pencil - Stationery,48034,37946.86,92,13
+254,T-Shirt - Fashion,9996,7497.0,81,2
+255,Comics - Books,39931,33941.35,157,5
+256,Sports Shoes - Sports,28057,24970.73,181,4
+257,Pen - Stationery,16464,13335.84,38,13
+258,Table - Furniture,3845,3037.55,67,8
+259,Remote Car - Toys,35582,27042.32,32,7
+260,Perfume - Beauty,45222,39795.36,147,6
+261,Jeans - Fashion,18076,17172.2,198,2
+262,Yoga Mat - Sports,45047,34686.19,109,4
+263,Novel - Books,25571,23013.9,157,5
+264,Tyre Polish - Automotive,31232,26547.2,19,10
+265,Yoga Mat - Sports,23569,18383.82,146,4
+266,First Aid Kit - Health,3699,2700.27,171,12
+267,Comics - Books,27782,24170.34,136,5
+268,Puzzle - Toys,7726,5717.24,93,7
+269,First Aid Kit - Health,6887,5647.34,162,12
+270,Notebook - Stationery,4937,3752.12,119,13
+271,Remote Car - Toys,16756,11896.76,68,7
+272,Seat Cushion - Automotive,26072,23986.24,70,10
+273,BP Monitor - Health,36020,31337.4,193,12
+274,BP Monitor - Health,14210,10231.2,43,12
+275,Headset - Music & Audio,24556,20381.48,135,15
+276,Ring - Jewelry,11342,9640.7,152,11
+277,Headset - Music & Audio,10851,10308.45,70,15
+278,Sneakers - Fashion,31864,24216.64,133,2
+279,Earrings - Jewelry,2286,1805.94,129,11
+280,Thermometer - Health,25465,22409.2,39,12
+281,BP Monitor - Health,13560,11797.2,148,12
+282,Building Blocks - Toys,6414,5323.62,108,7
+283,Laptop - Electronics,12847,10663.01,59,1
+284,Sugar - Groceries,42483,38234.7,51,9
+285,Jeans - Fashion,36542,29233.6,33,2
+286,Protein Powder - Health,31056,23292.0,163,12
+287,Pencil - Stationery,29795,27411.4,182,13
+288,Leash - Pet Supplies,41663,32080.51,64,14
+289,Air Conditioner - Home Appliances,5481,4932.9,64,3
+290,Cap - Fashion,29208,25995.12,139,2
+291,Smartphone - Electronics,12852,10153.08,70,1
+292,Comics - Books,6510,5468.4,177,5
+293,Marker - Stationery,24121,17608.33,91,13
+294,Tennis Racket - Sports,13301,10640.8,140,4
+295,Pet Toy - Pet Supplies,23697,21090.33,181,14
+296,Air Freshener - Automotive,29552,21572.96,166,10
+297,Cricket Bat - Sports,4513,3700.66,115,4
+298,Tablet - Electronics,4572,3429.0,166,1
+299,Spices - Groceries,1453,1380.35,106,9
+300,Ring - Jewelry,16429,14950.39,30,11

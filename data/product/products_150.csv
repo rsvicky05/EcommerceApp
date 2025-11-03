@@ -1,0 +1,51 @@
+id,name,mrp,discounted_price,qty,cat_id
+101,Comics - Books,42068,38702.56,82,5
+102,Thermometer - Health,11776,9656.32,169,12
+103,Bluetooth Speaker - Music & Audio,49573,40154.13,147,15
+104,Bed - Furniture,15767,11825.25,60,8
+105,T-Shirt - Fashion,25383,23606.19,188,2
+106,Face Cream - Beauty,7545,6639.6,102,6
+107,Laptop - Electronics,43184,32819.84,101,1
+108,Action Figure - Toys,49025,36278.5,79,7
+109,Smartwatch - Electronics,4063,2844.1,102,1
+110,Biography - Books,6787,5361.73,39,5
+111,Puzzle - Toys,3620,2715.0,16,7
+112,Perfume - Beauty,4246,3184.5,165,6
+113,Car Cover - Automotive,5964,4234.44,47,10
+114,Air Conditioner - Home Appliances,16779,15436.68,137,3
+115,Sneakers - Fashion,11854,10431.52,15,2
+116,Necklace - Jewelry,40586,36121.54,175,11
+117,Pen - Stationery,14778,10344.6,126,13
+118,Earrings - Jewelry,13604,12651.72,50,11
+119,Wardrobe - Furniture,44988,35090.64,185,8
+120,Table - Furniture,19544,16416.96,44,8
+121,Seat Cushion - Automotive,24376,22669.68,108,10
+122,Microwave - Home Appliances,33935,30202.15,189,3
+123,Wardrobe - Furniture,43347,30342.9,132,8
+124,Microphone - Music & Audio,33261,23947.92,96,15
+125,Air Conditioner - Home Appliances,21677,19292.53,18,3
+126,Jacket - Fashion,43941,40865.13,15,2
+127,Rice - Groceries,6096,4328.16,199,9
+128,Washing Machine - Home Appliances,42136,38343.76,199,3
+129,Leash - Pet Supplies,10144,8723.84,89,14
+130,Air Freshener - Automotive,30672,23924.16,152,10
+131,Hair Oil - Beauty,30531,27477.9,103,6
+132,Football - Sports,5161,3870.75,21,4
+133,Table - Furniture,49888,36917.12,161,8
+134,Necklace - Jewelry,33215,30557.8,78,11
+135,Anklet - Jewelry,42996,32247.0,12,11
+136,Anklet - Jewelry,4651,3674.29,59,11
+137,Sugar - Groceries,11685,9932.25,77,9
+138,BP Monitor - Health,41171,34583.64,161,12
+139,Remote Car - Toys,2421,1718.91,195,7
+140,Cat Litter - Pet Supplies,43539,41362.05,89,14
+141,Face Cream - Beauty,38018,33455.84,78,6
+142,Dog Food - Pet Supplies,34800,27840.0,62,14
+143,Cooking Oil - Groceries,12666,11146.08,18,9
+144,Cap - Fashion,23000,20010.0,104,2
+145,Pet Toy - Pet Supplies,5119,4607.1,198,14
+146,Perfume - Beauty,12392,11276.72,135,6
+147,Car Cover - Automotive,14286,11143.08,129,10
+148,Sofa - Furniture,29189,22767.42,147,8
+149,BP Monitor - Health,27340,20505.0,197,12
+150,Tyre Polish - Automotive,19544,17003.28,99,10

@@ -1,0 +1,128 @@
+/* src/pages/LandingPage.css */
+
+.landing-page {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f9f6ee, #fffdf8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.page-loaded .landing-page {
+  opacity: 1;
+}
+
+/* Main Section */
+.landing-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-main h1 {
+  font-size: 3rem;
+  color: #5a5a5a;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.highlight {
+  color: #b7a69e;
+}
+
+.landing-main p {
+  color: #7a7a73;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  max-width: 550px;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  gap: 15px;
+}
+
+.login-btn,
+.signup-btn {
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.login-btn {
+  background-color: #b7a69e;
+  color: white;
+  border: none;
+}
+
+.login-btn:hover {
+  background-color: #a0938b;
+}
+
+.signup-btn {
+  background-color: #d9d6cf;
+  border: 2px solid #b7a69e;
+  color: #5a5a5a;
+}
+
+.signup-btn:hover {
+  background-color: #b7a69e;
+  color: white;
+}
+
+/* Footer */
+.landing-footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #d9d6cf;
+  color: #5a5a5a;
+  font-size: 0.9rem;
+}
+
+/* ✨ Animations */
+.fade-slide {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeSlideUp 1s ease-out forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.3s;
+}
+
+.delay-2 {
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* src/pages/LandingPage.css */
+
+.landing-logo {
+  width: 240px;
+  height: auto;
+  animation: fadeIn 1.2s ease forwards;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

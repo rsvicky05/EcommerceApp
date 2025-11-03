@@ -1,0 +1,93 @@
+[
+  {
+    "cat_id": 1,
+    "name": "Electronics",
+    "description": "Devices and gadgets including phones, laptops, and accessories.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 2,
+    "name": "Fashion",
+    "description": "Clothing, footwear, and accessories for men and women.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 3,
+    "name": "Home Appliances",
+    "description": "Appliances and tools for home and kitchen use.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 4,
+    "name": "Sports",
+    "description": "Sports equipment, fitness gear, and accessories.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 5,
+    "name": "Books",
+    "description": "Educational and fiction books across genres.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 6,
+    "name": "Beauty",
+    "description": "Beauty, skincare, and grooming products.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 7,
+    "name": "Toys",
+    "description": "Toys and games for kids of all ages.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 8,
+    "name": "Furniture",
+    "description": "Home and office furniture for comfort and style.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 9,
+    "name": "Groceries",
+    "description": "Daily essentials, snacks, and packaged food.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 10,
+    "name": "Automotive",
+    "description": "Car and bike accessories and tools.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 11,
+    "name": "Jewelry",
+    "description": "Gold, silver, and fashion jewelry items.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 12,
+    "name": "Health",
+    "description": "Healthcare, supplements, and fitness products.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 13,
+    "name": "Stationery",
+    "description": "Office and school supplies.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 14,
+    "name": "Pet Supplies",
+    "description": "Products for pet care and grooming.",
+    "upload_date": "2025-10-31"
+  },
+  {
+    "cat_id": 15,
+    "name": "Music & Audio",
+    "description": "Musical instruments and audio equipment.",
+    "upload_date": "2025-10-31"
+  }
+]
+
