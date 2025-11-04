@@ -20,7 +20,10 @@ public class ProductSearchService {
 
     @Autowired
     private ElasticsearchOperations elasticsearchOperations;
-
+    /**
+     * Updated the Search products method
+     * "under 20000", "above 10000", "between 20000 and 50000" working
+     */
     public List<ProductDocument> searchProducts(String keyword) {
         if (keyword == null || keyword.trim().isEmpty()) {
             return List.of();
