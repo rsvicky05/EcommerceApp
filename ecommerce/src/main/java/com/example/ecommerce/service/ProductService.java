@@ -20,7 +20,7 @@ public class ProductService {
     @Autowired
     private CategoryRepository categoryRepository;
 
-    // ✅ Add Product
+    // ✅ Add Products
     public String addProduct(Product product, Long categoryId) {
         Category category = categoryRepository.findById(categoryId)
                 .orElse(null);

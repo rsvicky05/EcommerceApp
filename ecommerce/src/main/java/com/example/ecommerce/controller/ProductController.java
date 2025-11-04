@@ -10,6 +10,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
+/*
+    Added Product API controller to manage the request and responses
+ */
+
 @RestController
 @RequestMapping("/api/products")
 @CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
