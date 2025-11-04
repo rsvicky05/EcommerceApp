@@ -26,6 +26,11 @@ public class JwtAuthFilter extends OncePerRequestFilter {
     @Autowired
     private JwtService jwtService;
 
+    /*
+     * This method intercepts every HTTP request to handle JWT-based authentication.
+     * It checks for a JWT token in cookies, validates it, and sets authentication
+     * in the Spring Security context if valid.
+     */
     @Override
     protected void doFilterInternal(HttpServletRequest request,
                                     HttpServletResponse response,
@@ -80,4 +85,3 @@ public class JwtAuthFilter extends OncePerRequestFilter {
     }
 }
 
-//I had added some comments here
