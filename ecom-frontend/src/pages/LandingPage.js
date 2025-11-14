@@ -2,8 +2,8 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./LandingPage.css"; // 👈 custom animations & styling
-import logo from "../assets/logo.png"; // 👈 add your logo here (place logo.png inside src/assets/)
+import "./LandingPage.css"; 
+import logo from "../assets/logo.png";
 
 export default function LandingPage() {
   const navigate = useNavigate();

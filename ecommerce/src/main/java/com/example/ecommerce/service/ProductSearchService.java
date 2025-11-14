@@ -91,7 +91,7 @@ public class ProductSearchService {
         }
 
         // Pattern for "under", "below", "less than", etc.
-        Pattern underPattern = Pattern.compile("(under|below|less than|upto|underneath)\\s*(\\d+)");
+        Pattern underPattern = Pattern.compile("(under|below|less than|lesser than|less|upto|underneath)\\s*(\\d+)");
         Matcher underMatcher = underPattern.matcher(keyword);
         if (underMatcher.find()) {
             max = Double.parseDouble(underMatcher.group(2));
@@ -99,7 +99,7 @@ public class ProductSearchService {
         }
 
         // Pattern for "above", "over", "greater than"
-        Pattern abovePattern = Pattern.compile("(above|over|greater than)\\s*(\\d+)");
+        Pattern abovePattern = Pattern.compile("(above|over|greater than|greater)\\s*(\\d+)");
         Matcher aboveMatcher = abovePattern.matcher(keyword);
         if (aboveMatcher.find()) {
             min = Double.parseDouble(aboveMatcher.group(2));

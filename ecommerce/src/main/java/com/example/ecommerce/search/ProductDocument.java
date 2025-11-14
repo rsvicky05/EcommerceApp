@@ -3,11 +3,13 @@ package com.example.ecommerce.search;
 import lombok.Builder;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
+import org.springframework.data.elasticsearch.annotations.Setting;
 
 import java.math.BigDecimal;
 
 
 @Builder
+@Setting(replicas = 0, shards = 1)  // ✅ Set replicas at document level
 @Document(indexName = "products")
 public class ProductDocument {
 

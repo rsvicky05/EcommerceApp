@@ -19,6 +19,7 @@ function App() {
         <Route path="/products" element={<AllProductsPage />} />
         <Route path="/search" element={<SearchResultsPage />} />
         <Route path="/category/:categoryId" element={<CategoryProductsPage />} />
+        <Route path="*" element={<LandingPage />} />
       </Routes>
     </Router>
   );

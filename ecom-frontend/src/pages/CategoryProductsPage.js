@@ -1,45 +1,82 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import Navbar from "../component/Navbar";
 
 function CategoryProductPage() {
   const { categoryId } = useParams();
+  const navigate = useNavigate();
+
   const [products, setProducts] = useState([]);
   const [page, setPage] = useState(0);
   const [size] = useState(6); // items per page
   const [totalPages, setTotalPages] = useState(0);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const fetchProductsByCategory = async () => {
-      setLoading(true);
-      try {
-        const response = await fetch(
-          `http://localhost:8080/api/products/category/${categoryId}?page=${page}&size=${size}`,
-          {
-            method: "GET",
-            headers: { "Content-Type": "application/json" },
-            credentials: "include",
-          }
-        );
+  // Check authentication by calling backend validation endpoint
+  const checkAuth = async () => {
+    try {
+      const response = await fetch("http://localhost:8080/api/auth/validate", {
+        method: "GET",
+        credentials: "include", // send cookie
+      });
 
-        if (!response.ok) {
-          console.error("Error fetching products:", response.status);
-          return;
-        }
-
-        const data = await response.json();
-        setProducts(data.content || []); // Page<T> → data.content
-        setTotalPages(data.totalPages || 0);
-      } catch (err) {
-        console.error("Fetch failed:", err);
-      } finally {
-        setLoading(false);
+      if (!response.ok) {
+        // Token invalid or expired
+        alert("Session expired or unauthorized. Please log in again.");
+        navigate("/login");
+        return false;
       }
-    };
 
-    fetchProductsByCategory();
-  }, [categoryId, page, size]);
+      return true;
+    } catch (error) {
+      console.error("Error checking authentication:", error);
+      alert("Please log in first.");
+      navigate("/login");
+      return false;
+    }
+  };
+
+  // Fetch products for the given category and page
+  const fetchProductsByCategory = async (pageNum = page) => {
+    setLoading(true);
+    try {
+      const response = await fetch(
+        `http://localhost:8080/api/products/category/${categoryId}?page=${pageNum}&size=${size}`,
+        {
+          method: "GET",
+          headers: { "Content-Type": "application/json" },
+          credentials: "include",
+        }
+      );
+
+      if (!response.ok) {
+        console.error("Error fetching products:", response.status);
+        setProducts([]);
+        setTotalPages(0);
+        setLoading(false);
+        return;
+      }
+
+      const data = await response.json();
+      setProducts(data.content || []); // Page<T> → data.content
+      setTotalPages(data.totalPages || 0);
+    } catch (err) {
+      console.error("Fetch failed:", err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    (async () => {
+      const isAuthenticated = await checkAuth();
+      if (isAuthenticated) {
+        // reset to page 0 when category changes
+        await fetchProductsByCategory(page);
+      }
+    })();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [categoryId, page]);
 
   const handlePrev = () => setPage((prev) => Math.max(prev - 1, 0));
   const handleNext = () => setPage((prev) => Math.min(prev + 1, totalPages - 1));

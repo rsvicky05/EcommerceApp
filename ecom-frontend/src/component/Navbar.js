@@ -12,7 +12,8 @@ function Navbar() {
     .then((res) => {
       if (res.ok) {
         alert("Logged out successfully");
-        window.location.href = "/login"; // redirect to login
+        navigate("/", { replace: true });
+        //window.location.href = "/"; // redirect to login
       } else {
         alert("Logout failed");
       }

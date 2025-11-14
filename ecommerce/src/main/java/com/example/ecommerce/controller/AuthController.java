@@ -62,7 +62,6 @@
         @PostMapping("/signin")
         public ResponseEntity<String> loginUser(@RequestBody User user, HttpServletResponse response) {
             String token = userService.loginUser(user.getEmail(), user.getPassword());
-
             if (token.startsWith("Invalid")) {
                 return ResponseEntity.badRequest().body(token);
             }

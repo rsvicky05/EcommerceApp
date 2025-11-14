@@ -1,0 +1,94 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: ecommerce-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: ecommerce
+      MYSQL_USER: ecommerce
+      MYSQL_PASSWORD: ecommerce_pass
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./mysql-init:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping","-h","localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - ecommerce-net
+
+  ecommerce-es:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.3
+    container_name: ecommerce-es
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - cluster.routing.allocation.disk.threshold_enabled=false
+      # ✅ Set number of replicas to 0 for single-node setup
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+    #ports:
+    #  - "9200:9200"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9200/_cluster/health?wait_for_status=yellow&timeout=5s || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+    networks:
+      - ecommerce-net
+  backend:
+    build:
+      context: ./ecommerce
+      dockerfile: Dockerfile
+    image: ecommerce-backend
+    container_name: ecommerce-backend
+    depends_on:
+      mysql:
+        condition: service_healthy
+      ecommerce-es:
+        condition: service_healthy
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/ecommerce?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: ecommerce
+      SPRING_DATASOURCE_PASSWORD: ecommerce_pass
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_ELASTICSEARCH_URIS: http://ecommerce-es:9200
+      # Optional: disable index-on-start if you need
+      # APP_SEARCH_INDEX_ON_START: "false"
+    ports:
+      - "8080:8080"
+    restart: on-failure
+    networks:
+      - ecommerce-net
+
+  frontend:
+    build:
+      context: ./ecom-frontend
+      dockerfile: Dockerfile
+      args:
+        REACT_APP_API_URL: http://backend:8080
+    image: ecommerce-frontend
+    container_name: ecommerce-frontend
+    depends_on:
+      - backend
+    ports:
+      - "3000:80"
+    networks:
+      - ecommerce-net
+
+volumes:
+  mysql-data:
+  esdata:
+
+networks:
+  ecommerce-net:
+    driver: bridge

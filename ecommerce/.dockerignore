@@ -1,0 +1,6 @@
+target
+.mvn
+.mvnw
+.git
+.gitignore
+.DS_Store

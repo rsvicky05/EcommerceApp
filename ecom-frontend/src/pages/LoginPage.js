@@ -71,6 +71,7 @@ function LoginPage() {
           </div>
           <div className="mb-3 text-start">
             <label className="form-label">Password</label>
+            <div class="position-relative">
             <input
               type="password"
               className="form-control"
@@ -78,6 +79,11 @@ function LoginPage() {
               onChange={(e) => setPassword(e.target.value)}
               required
             />
+            <i
+            id="togglePassword"
+            className="fa-solid fa-eye position-absolute top-50 end-0 translate-middle-y me-3 text-secondary"
+            style={{ cursor: "pointer" }}
+            ></i></div>
           </div>
           <button className="btn w-100" style={{ backgroundColor: "#C5C7BC", color: "#1A2A4F" }}>
             Login

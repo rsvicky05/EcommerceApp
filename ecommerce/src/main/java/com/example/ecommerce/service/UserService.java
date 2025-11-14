@@ -8,12 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PostMapping;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import java.util.Optional;
 
 @Service
 public class UserService {
-
+    private static final Logger logger = LoggerFactory.getLogger(UserService.class);
     @Autowired
     private UserRepository userRepository;
 
@@ -47,7 +48,7 @@ public class UserService {
      */
     public String loginUser(String email, String password) {
         Optional<User> existingUserOpt = userRepository.findByEmail(email);
-
+        logger.info(password);
         if (existingUserOpt.isEmpty()) {
             return "Invalid credentials!";
         }
